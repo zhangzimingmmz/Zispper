@@ -1,0 +1,7 @@
+.DS_Store
+/.build
+/.swiftpm
+/*.xcodeproj
+Zispper.app
+DouBaoVoice.app
+*.log

@@ -1,0 +1,6 @@
+name: optimize-zispper-core-reliability
+status: in_progress
+artifacts:
+  - proposal.md
+  - design.md
+  - tasks.md

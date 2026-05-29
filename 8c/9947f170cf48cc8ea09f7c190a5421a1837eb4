@@ -1,0 +1,23 @@
+README.md
+  s_f96c5345f1f928::t_d149693bd0afe3 109,131
+Sources/zispper/ASRClient.swift
+  s_f96c5345f1f928::t_8b025de8b27ad0 418
+Sources/zispper/Configuration.swift
+  s_f96c5345f1f928::t_8b416d3928c8c5 9,11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "8c9947f170cf48cc8ea09f7c190a5421a1837eb4",
+  "prompts": {},
+  "sessions": {
+    "s_f96c5345f1f928": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e744c-c564-73a2-8621-79baece53642",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhangziming <zhangzimingmmz@gmail.com>"
+    }
+  }
+}

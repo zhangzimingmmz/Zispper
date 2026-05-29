@@ -1,0 +1,42 @@
+Package.swift
+  s_f96c5345f1f928::t_ba590267ee1445 10,15
+  s_f96c5345f1f928::t_ed231cfe0c987c 1,5
+README.md
+  s_8566108dae9783::t_d195a9ca60c116 2,4-31,33-39,41-84,86-89,91-102,104,106-108,127-130,134-136,138-143,145-149,151-156,158-161,163-181,183-210,212-215
+  s_f96c5345f1f928::t_24d97026e6d7b7 32,103
+  s_f96c5345f1f928::t_e555dd8c0be917 1,3,40,85,90,105,109-126,131-133,137,144,150,157,162,182,211
+bundle_app.sh
+  s_8566108dae9783::t_0accc77a4714c7 58
+  s_8566108dae9783::t_2d017fc5846239 2,7-10,12,15-18,20,22,30,33-34,40,42,44,54-55,57
+  s_f96c5345f1f928::t_18472065d191a9 4
+openspec/changes/optimize-zispper-core-reliability/proposal.md
+  s_f96c5345f1f928::t_edb76f481eb383 1-57
+openspec/changes/optimize-zispper-core-reliability/design.md
+  s_f96c5345f1f928::t_fb99d401a974c0 1-203
+.gitignore
+  s_f96c5345f1f928::t_3fff67442018a5 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "f38404033e567e177d59c10dcdd142da81e44a9d",
+  "prompts": {},
+  "sessions": {
+    "s_8566108dae9783": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e338d-2061-7b10-b628-451339579ab2",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhangziming <zhangzimingmmz@gmail.com>"
+    },
+    "s_f96c5345f1f928": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e744c-c564-73a2-8621-79baece53642",
+        "model": "gpt-5.5"
+      },
+      "human_author": "zhangziming <zhangzimingmmz@gmail.com>"
+    }
+  }
+}

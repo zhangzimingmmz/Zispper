@@ -106,7 +106,7 @@ zispper 需要两类系统权限：
 
 | 变量名 | 默认值 | 说明 |
 |---|---|---|
-| `ZISPPER_ASR_URL` | `http://100.64.0.6:30766/v1/audio/transcriptions` | ASR 服务地址 |
+| `ZISPPER_ASR_URL` | `http://127.0.0.1:8766/v1/audio/transcriptions` | ASR 服务地址 |
 | `ZISPPER_LOCAL_ASR_HEALTH_URL` | 与 `ZISPPER_ASR_URL` 相同 | 本地 ASR 健康检查地址；未单独配置时仅作粗略探测，最终以转写请求结果为准 |
 | `ZISPPER_ASR_LANGUAGE` | `zh` | 请求中提交的语言参数 |
 | `ZISPPER_REQUEST_TIMEOUT` | `30` | HTTP 请求超时，单位秒 |
@@ -128,7 +128,7 @@ zispper 需要两类系统权限：
 示例：
 
 ```bash
-ZISPPER_ASR_URL=http://127.0.0.1:8000/v1/audio/transcriptions \
+ZISPPER_ASR_URL=http://127.0.0.1:8766/v1/audio/transcriptions \
 ZISPPER_DOUBAO_APP_ID=your-app-id \
 ZISPPER_DOUBAO_ACCESS_TOKEN=your-access-token \
 swift run

@@ -415,7 +415,7 @@ final class ASRClient {
 
     private func probeLocalHealth(reason: String) {
         var request = URLRequest(url: Configuration.localASRHealthURL)
-        request.httpMethod = Configuration.hasExplicitLocalASRHealthURL ? "GET" : "HEAD"
+        request.httpMethod = "GET"
         request.timeoutInterval = Configuration.localHealthProbeTimeout
 
         let task = urlSession.dataTask(with: request) { [weak self] _, response, error in

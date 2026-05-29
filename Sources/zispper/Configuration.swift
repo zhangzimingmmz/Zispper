@@ -6,9 +6,9 @@ enum Configuration {
     static let bundleIdentifier = "com.zhangziming.zispper"
     static let logPath = "/tmp/zispper.log"
 
-    static let asrEndpoint = URL(string: environmentValue("ZISPPER_ASR_URL", legacyKey: "DOUBAOVOICE_ASR_URL") ?? "http://100.64.0.6:30766/v1/audio/transcriptions")!
+    static let asrEndpoint = URL(string: environmentValue("ZISPPER_ASR_URL", legacyKey: "DOUBAOVOICE_ASR_URL") ?? "http://127.0.0.1:8766/v1/audio/transcriptions")!
     private static let localASRHealthURLOverride = environmentValue("ZISPPER_LOCAL_ASR_HEALTH_URL", legacyKey: "DOUBAOVOICE_LOCAL_ASR_HEALTH_URL")
-    static let localASRHealthURL = URL(string: localASRHealthURLOverride ?? asrEndpoint.absoluteString)!
+    static let localASRHealthURL = URL(string: localASRHealthURLOverride ?? "http://127.0.0.1:8766/health")!
     static let hasExplicitLocalASRHealthURL = localASRHealthURLOverride != nil
     static let asrLanguage = environmentValue("ZISPPER_ASR_LANGUAGE", legacyKey: "DOUBAOVOICE_ASR_LANGUAGE") ?? "zh"
 
